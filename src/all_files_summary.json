@@ -1,0 +1,20 @@
+{
+  "backend/main.mo": "Motoko actor implementing a donation tracking system with functions to submit donations, retrieve totals/counts, query recent donations sorted by timestamp or amount, and search donations by donor or minimum amount.",
+  "feature_evidence.json": "Feature evidence report documenting three completed features: updating landing page copy for True Hope Foundation, generating a new hero banner image, and updating campaign configuration with appropriate fundraising goals.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing the True Hope Foundation donation platform components, including landing page, donation form, campaign progress, styling with warm humanitarian color palette, and configuration.",
+  "frontend/index.css": "Empty CSS file (content has been moved to frontend/src/index.css).",
+  "frontend/index.html": "HTML entry point with outdated title 'Gaza Relief Fundraiser' that needs updating to reflect True Hope Foundation branding.",
+  "frontend/src/App.tsx": "Root React component that renders the LandingPage component.",
+  "frontend/src/components/donations/CampaignProgress.tsx": "React component displaying campaign progress with total raised, donation count, goal amount, progress bar, and statistics using React Query to fetch data from the backend actor.",
+  "frontend/src/components/donations/DonationForm.tsx": "React component providing a donation form with preset and custom amount selection, optional name/message fields, validation, submission handling via React Query mutation, and success confirmation display.",
+  "frontend/src/components/donations/RecentDonations.tsx": "React component fetching and displaying the 10 most recent donations with amounts, donor names, messages, timestamps, and handling for empty states and anonymous donations.",
+  "frontend/src/config/campaign.ts": "Campaign configuration exporting a $250,000 fundraising goal and USD currency settings for True Hope Foundation.",
+  "frontend/src/hooks/useActor.ts": "React hook managing backend actor creation with Internet Identity authentication, returning the actor instance and invalidating dependent queries when identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React hook and provider for Internet Identity authentication on ICP, managing login state, identity persistence, and delegation validation with configurable AuthClient options.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables for light and dark themes using OKLCH color space, defining design tokens for colors, borders, and UI components.",
+  "frontend/src/lib/format.ts": "Utility functions for formatting currency (USD), parsing numeric amounts, and converting nanosecond timestamps to human-readable relative time strings.",
+  "frontend/src/main.tsx": "Application entry point that renders the React app with QueryClient and InternetIdentityProvider wrappers for state management and authentication.",
+  "frontend/src/pages/LandingPage.tsx": "Main landing page component for True Hope Foundation featuring hero section, campaign progress, donation form, recent donations, impact categories, and FAQ accordion sections.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the default theme with custom OKLCH colors, container settings, border radius variables, animations, and typography/container-queries plugins.",
+  "project_state.json": "Project metadata tracking implemented features for a humanitarian donation website (truehopefoundation.in) including landing page, donation forms, progress tracking, and visual theming requirements."
+}

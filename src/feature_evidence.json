@@ -1,0 +1,59 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-all-landing-page-copy-headings-and-descriptive-text-to-reflect-true-hope-foundation-s-mission-and-the-truehopefoundation-in-domain-replacing-any-gaza-specific-references-with-appropriate-humanitarian-relief-messaging",
+      "featureTitle": "Update all landing page copy, headings, and descriptive text to reflect True Hope Foundation's mission and the truehopefoundation.in domain, replacing any Gaza-specific references with appropriate humanitarian relief messaging",
+      "files": [
+        "frontend/src/pages/LandingPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-generate-a-new-hero-banner-image-suitable-for-true-hope-foundation-s-humanitarian-relief-mission-hero-truehope-dim-1200x600-png-and-replace-the-existing-hero-image",
+      "featureTitle": "Generate a new hero banner image suitable for True Hope Foundation's humanitarian relief mission (hero-truehope.dim_1200x600.png) and replace the existing hero image",
+      "files": [
+        "frontend/src/pages/LandingPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-campaign-configuration-to-set-an-appropriate-fundraising-goal-for-true-hope-foundation",
+      "featureTitle": "Update campaign configuration to set an appropriate fundraising goal for True Hope Foundation",
+      "files": [
+        "frontend/src/config/campaign.ts"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

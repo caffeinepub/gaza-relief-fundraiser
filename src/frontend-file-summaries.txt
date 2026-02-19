@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the LandingPage as the primary view.",
+  "frontend/src/pages/LandingPage.tsx": "Complete donation landing page rebranded for True Hope Foundation with hero section, campaign progress, impact categories, donation form, recent donations, FAQ accordion, and footer with proper navigation and scroll behavior.",
+  "frontend/src/components/donations/DonationForm.tsx": "Donation form component with preset and custom amount selection, optional name/message fields, validation, loading states, and success confirmation that invalidates queries on submission.",
+  "frontend/src/components/donations/CampaignProgress.tsx": "Campaign progress display component showing total raised, donation count, goal amount, progress bar, and key statistics with loading skeletons.",
+  "frontend/src/components/donations/RecentDonations.tsx": "Recent donations list component that fetches and displays the latest donations with amounts, names, messages, and timestamps, handling anonymous donations and empty states.",
+  "frontend/src/lib/format.ts": "Utility functions for formatting currency, parsing amounts, and converting nanosecond timestamps to human-readable relative time strings.",
+  "frontend/src/config/campaign.ts": "Campaign configuration file containing the fundraising goal amount ($250,000) and currency settings for True Hope Foundation's humanitarian relief campaign.",
+  "frontend/index.css": "Global stylesheet with OKLCH-based design tokens featuring a warm humanitarian color palette (orange/amber primary tones) for both light and dark modes, avoiding default blue/purple aesthetics.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom fonts (Inter), border radii, box shadows, and maintaining the token-based color system.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query, Internet Identity provider, and renders the App component with correct CSS import from the src directory.",
+  "frontend/src/index.css": "Global stylesheet with OKLCH-based design tokens featuring a warm humanitarian color palette (orange/amber primary tones) for both light and dark modes, moved to src directory for proper module resolution."
+}

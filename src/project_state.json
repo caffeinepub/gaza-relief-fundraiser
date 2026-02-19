@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Build a donation website similar to gaza.hdfund.org for a Gaza relief fundraising campaign, now for truehopefoundation.in.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Humanitarian relief hero banner showing hope and community support, warm and uplifting tones (hero-truehope.dim_1200x600.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-public-responsive-donation-landing-page-modeled-on-the-overall-structure-and-user-experience-of-https-gaza-hdfund-org-including-a-hero-section-clear-fundraising-appeal-text-key-impact-aid-categories-trust-faq-style-informational-sections-and-prominent-donate-calls-to-action-throughout-the-page",
+      "title": "Create a public, responsive donation landing page modeled on the overall structure and user experience of https://gaza.hdfund.org, including a hero section, clear fundraising appeal text, key impact/aid categories, trust/FAQ-style informational sections, and prominent donate calls-to-action throughout the page.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-donation-pledge-form-ui-that-lets-a-user-select-a-preset-amount-and-or-enter-a-custom-amount-optionally-enter-a-name-and-message-and-submit-the-donation-pledge",
+      "title": "Implement a donation/pledge form UI that lets a user select a preset amount and/or enter a custom amount, optionally enter a name and message, and submit the donation/pledge.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-campaign-progress-on-the-landing-page-including-a-configurable-goal-amount-current-total-raised-donation-count-and-a-progress-bar",
+      "title": "Display campaign progress on the landing page, including a configurable goal amount, current total raised, donation count, and a progress bar.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-recent-donations-pledges-section-that-lists-the-most-recent-submissions-respecting-privacy-by-allowing-anonymous-display-when-no-name-is-provided",
+      "title": "Add a recent donations/pledges section that lists the most recent submissions (respecting privacy by allowing anonymous display when no name is provided).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-cohesive-distinctive-visual-theme-colors-typography-spacing-and-component-styling-suitable-for-a-humanitarian-fundraising-campaign-and-enforce-it-consistently-across-the-site-do-not-use-a-blue-purple-default-theme",
+      "title": "Apply a cohesive, distinctive visual theme (colors, typography, spacing, and component styling) suitable for a humanitarian fundraising campaign, and enforce it consistently across the site (do not use a blue/purple default theme).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-static-campaign-imagery-assets-hero-banner-simple-icon-set-and-integrate-them-into-the-page-layout-from-the-frontend-public-assets-directory",
+      "title": "Add static campaign imagery assets (hero/banner, simple icon set) and integrate them into the page layout from the frontend public assets directory.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-landing-page-copy-headings-and-descriptive-text-to-reflect-true-hope-foundation-s-mission-and-the-truehopefoundation-in-domain-replacing-any-gaza-specific-references-with-appropriate-humanitarian-relief-messaging",
+      "title": "Update all landing page copy, headings, and descriptive text to reflect True Hope Foundation's mission and the truehopefoundation.in domain, replacing any Gaza-specific references with appropriate humanitarian relief messaging",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-a-new-hero-banner-image-suitable-for-true-hope-foundation-s-humanitarian-relief-mission-hero-truehope-dim-1200x600-png-and-replace-the-existing-hero-image",
+      "title": "Generate a new hero banner image suitable for True Hope Foundation's humanitarian relief mission (hero-truehope.dim_1200x600.png) and replace the existing hero image",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-campaign-configuration-to-set-an-appropriate-fundraising-goal-for-true-hope-foundation",
+      "title": "Update campaign configuration to set an appropriate fundraising goal for True Hope Foundation",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a donation fundraising website similar to gaza.hdfund.org (Gaza relief campaign donation page).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add backend storage and APIs to record submitted pledges and compute campaign totals (total amount and count), and expose query methods the frontend can use to display live totals.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Gaza Relief Fundraiser",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
