@@ -1,0 +1,15 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-19T14:19:07.509Z",
+  "summary": "The diff implements all three requirements for rebranding the donation site to True Hope Foundation. REQ-8 (landing page copy updates) is implemented in LandingPage.tsx with appropriate humanitarian messaging and True Hope Foundation branding. REQ-9 (hero banner image) is referenced correctly in the code pointing to hero-truehope.dim_1200x600.png. REQ-10 (campaign configuration) is fully implemented with a $250,000 goal in campaign.ts. No missing requirements or hallucinated features detected.",
+  "missing_requirements": [],
+  "hallucinated_features": [],
+  "confidence": 0.95,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/src/config/campaign.ts",
+    "frontend/src/pages/LandingPage.tsx",
+    "project_state.json"
+  ]
+}

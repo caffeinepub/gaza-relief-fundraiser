@@ -1,0 +1,63 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-19T14:19:07.511Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 3,
+    "implemented": 3,
+    "items": [
+      {
+        "id": "REQ-10",
+        "summary": "Update campaign configuration to set an appropriate fundraising goal for True Hope Foundation",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/config/campaign.ts"
+        ],
+        "matchedFiles": [
+          "frontend/src/config/campaign.ts"
+        ]
+      },
+      {
+        "id": "REQ-8",
+        "summary": "Update all landing page copy, headings, and descriptive text to reflect True Hope Foundation's mission and the truehopefoundation.in domain, replacing any Gaza-specific references with appropriate humanitarian relief messaging",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/LandingPage.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/LandingPage.tsx"
+        ]
+      },
+      {
+        "id": "REQ-9",
+        "summary": "Generate a new hero banner image suitable for True Hope Foundation's humanitarian relief mission (hero-truehope.dim_1200x600.png) and replace the existing hero image",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/LandingPage.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/LandingPage.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "caffeine.lock.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/public/assets/generated/hero-truehope.dim_1200x600.png",
+    "frontend/src/config/campaign.ts",
+    "frontend/src/pages/LandingPage.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

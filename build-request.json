@@ -1,0 +1,87 @@
+{
+  "kind": "build_request",
+  "title": "Rebrand donation site for True Hope Foundation",
+  "projectName": "True Hope Foundation",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "text": "Update all landing page copy, headings, and descriptive text to reflect True Hope Foundation's mission and the truehopefoundation.in domain, replacing any Gaza-specific references with appropriate humanitarian relief messaging",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "truehopefoundation.in",
+          "Create same donation site"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section displays True Hope Foundation branding and mission",
+        "All text references appropriate to True Hope Foundation's cause",
+        "No references to Gaza or gaza.hdfund.org remain in visible copy",
+        "Domain-appropriate messaging throughout the landing page"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Generate a new hero banner image suitable for True Hope Foundation's humanitarian relief mission (hero-truehope.dim_1200x600.png) and replace the existing hero image",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "truehopefoundation.in",
+          "Create same donation site"
+        ]
+      },
+      "acceptanceCriteria": [
+        "New hero banner reflects humanitarian relief theme",
+        "Image dimensions are 1200x600 pixels",
+        "Hero banner is displayed on the landing page",
+        "Image is stored in frontend/public/assets/generated/"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Update campaign configuration to set an appropriate fundraising goal for True Hope Foundation",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "truehopefoundation.in",
+          "Create same donation site"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Campaign goal is updated in frontend/src/config/campaign.ts",
+        "Goal amount is appropriate for a humanitarian relief campaign",
+        "Progress bar and campaign statistics reflect the new goal"
+      ]
+    }
+  ],
+  "constraints": [
+    "Maintain the existing donation site structure and functionality",
+    "Keep the backend data model unchanged",
+    "Preserve all existing donation records and backend APIs",
+    "Do not modify frontend/src/hooks/useInternetIdentity.ts or frontend/src/hooks/useActor.ts",
+    "Do not edit frontend/src/components/ui components"
+  ],
+  "nonGoals": [
+    "Adding new features beyond rebranding",
+    "Changing the donation form workflow or fields",
+    "Modifying the backend architecture or data structure",
+    "Adding payment processing integration",
+    "Changing the technology stack"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Humanitarian relief hero banner showing hope and community support, warm and uplifting tones (hero-truehope.dim_1200x600.png)"
+    ],
+    "edits": []
+  }
+}
